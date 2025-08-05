@@ -2,7 +2,7 @@
     $nome = $_POST['nome'];
     $email = $_POST['email'];
     $senha = $_POST['senha'];
-    $tipo = $_POST['tipo'];
+    #$tipo = $_POST['tipo'];
 
     $hash = md5($senha);
     echo "Sua senha  sua senha encriptografada é: $hash";

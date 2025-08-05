@@ -28,7 +28,8 @@
             echo "<td>{$linha['email']}</td>";
             echo "<td>{$linha['senha']}</td>";
             echo "<td>";
-            echo "<a href='ClienteExcluir.php?idexcluir={$linha['Id']}'><img src='img/excluir.png'></a>";
+            echo "<a href='ClienteExcluir.php?idexcluir={$linha['Id']}'><img src='img/excluir.png' width=40></a>";
+            echo "<a href='ClienteFormularioAlterar.php?idalterar={$linha['Id']}'><img src='img/alterar.png' width=40></a>";
             echo "</td>";
             echo "</tr>";
         }
